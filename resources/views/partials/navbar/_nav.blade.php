@@ -1,4 +1,4 @@
-<nav class="flex justify-between items-center p-5">
+<nav class="flex justify-between items-center p-5 sticky top-0 bg-white z-10">
   {{-- logo --}}
   <div class="">
     <a href="/"><img src="img/1.svg" alt="logo volvo"></a>

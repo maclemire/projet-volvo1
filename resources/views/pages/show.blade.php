@@ -3,7 +3,7 @@
     
 @section("content")
 
-  <h1>page show</h1>
+  @include('partials/showpage/_main')
 
 
 @endsection

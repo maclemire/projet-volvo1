@@ -1,3 +1,42 @@
 1- Création des routes dans routes/web.php
 2- Création des pages dans resources/views/pages
 3- Création des des dossiers de chaque page et de la navbar dans le dossier partial
+
+
+<div class="px-36 grid grid-cols-4 gap-4">
+  <?php
+  $type = "CROSSOVER";
+  $modele = "C40 Recharge";
+  $energie = "100 % électrique";
+  $prix = "44 950";
+  $img = "8.webp";
+  ?>
+  @include('partials/homepage/_recharge-card')
+  
+  <?php
+  $type = "SUV";
+  $modele = "XC40 Recharge";
+  $energie = "100 % électrique";
+  $prix = "43 950";
+  $img = "9.webp";
+  ?>
+  @include('partials/homepage/_recharge-card')
+  
+  <?php
+  $type = "SUV";
+  $modele = "XC90 Recharge";
+  $energie = "Hybride rechargeable";
+  $prix = "90 800";
+  $img = "10.webp";
+  ?>
+  @include('partials/homepage/_recharge-card')
+  
+  <?php
+  $type = "SUV";
+  $modele = "XC60 Recharge";
+  $energie = "Hybride rechargeable";
+  $prix = "72 130";
+  $img = "11.webp";
+  ?>
+  @include('partials/homepage/_recharge-card')
+</div>

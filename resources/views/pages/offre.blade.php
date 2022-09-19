@@ -3,6 +3,7 @@
     
 @section("content")
 
-  <h1>page offre</h1>
+    @include('partials/offrepage/_main')
+
 
 @endsection
